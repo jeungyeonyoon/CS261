@@ -1,0 +1,32 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    color: gray;
+}
+
+.title{
+    text-align: center;
+    font-size: 15vw;
+    margin-top: 10%;
+}
+
+.todo-list{
+    list-style: none;
+
+}
+
+
+.todo-content{
+    width:90%;
+
+}

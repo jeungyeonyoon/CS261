@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>W3.CSS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+    
+        *{
+            margin: 0 auto;
+        }
+        
+    </style>
+    <title>Team Activity</title>
+
+</head>
+
+<body>
+    <script>
+    function print(){
+        var input1 = parseInt(document.getElementById("text1").value);
+        var input2 = parseInt(document.getElementById('text2').value);
+        var output = document.getElementById("output");
+        var sum = 0;
+        sum = input1 + input2;
+        output.innerHTML = sum;
+    }
+    
+    </script>
+        
+        <input type="text" id="text1">
+        <input type="text" id="text2">
+        <input type="button" onclick="print()" value="+">
+
+        <div id="output"></div>
+    
+</body></html>

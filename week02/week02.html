@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>W3.CSS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+    
+        *{
+            margin: 0 auto;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    <form action="" class="contactForm">
+        <p>
+            <input type="text" placeholder="Text" id="input">
+        </p>
+       
+            <button onclick="getText()" id="submit">Button</button>
+        
+            <p id="submit"></p>
+
+        <div id="click">
+            <script>
+                function getText() {
+                    var text= document.getElementsById("input").value;
+                  document.getElementById("submit").innerHTML = text;
+                }
+                </script>
+        </div>
+        
+    </form>
+</body></html>
